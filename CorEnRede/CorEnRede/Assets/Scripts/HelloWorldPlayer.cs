@@ -24,21 +24,22 @@ namespace HelloWorld
             // Si es el propietario del objeto (jugador local)
             if (IsOwner)
             {
-                Move(); // Mover el jugador a una posición aleatoria, actualmente no funciona
+                Move(); // Mover el jugador a una posición aleatoria 
             }
         }
 
         public void Move()
         {
-            if (NetworkManager.Singleton.IsServer) {
+            //Podria eliminarse
+            /*if (NetworkManager.Singleton.IsServer) {
                 var randomPosition = GetRandomPositionOnPlane(); // Generar una posición aleatoria en un plano
                 transform.position = randomPosition; // Actualizar la posición del jugador localmente
                 Position.Value = randomPosition; // Actualizar la posición del jugador en la red
             }
             else
-            {
+            {*/
                 SubmitPositionRequestServerRpc(); // Enviar una solicitud al servidor para mover el jugador
-            }
+           // }
         }
 
         // Procesa la solicitud de posición del jugador
@@ -49,7 +50,7 @@ namespace HelloWorld
             //transform.position = Position.Value; // Actualizar la posición del jugador localmente
         }
 
-        // Obtiene una posición aleatoria en un plano
+        // Obtiene una posición aleatoria en un plano para que sea equivalente en todos los players
         static Vector3 GetRandomPositionOnPlane()
         {
             return new Vector3(Random.Range(-3f, 3f), 1f, Random.Range(-3f, 3f));
