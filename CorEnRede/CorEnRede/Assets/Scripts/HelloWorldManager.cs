@@ -17,6 +17,8 @@ namespace HelloWorld
                 StatusLabels();
 
                 SubmitNewPosition();
+
+                SubmitNewColor();
             }
 
             GUILayout.EndArea();
@@ -54,6 +56,15 @@ namespace HelloWorld
                     var player = playerObject.GetComponent<HelloWorldPlayer>();
                     player.Move();
                 }
+            }
+        }
+
+        static void SubmitNewColor(){
+            if (GUILayout.Button("Cambia color"))
+            {
+                var playerObject = NetworkManager.Singleton.SpawnManager.GetLocalPlayerObject();
+                var player = playerObject.GetComponent<HelloWorldPlayer>();
+                player.CambiarColor();
             }
         }
     }
