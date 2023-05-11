@@ -60,11 +60,11 @@ namespace HelloWorld
         }
 
         static void SubmitNewColor(){
-            if (GUILayout.Button("Cambia color"))
+            if (GUILayout.Button("Cambia Color"))
             {
                 var playerObject = NetworkManager.Singleton.SpawnManager.GetLocalPlayerObject();
                 var player = playerObject.GetComponent<HelloWorldPlayer>();
-                player.CambiarColor();
+                player.CambiaColor();
             }
         }
     }
