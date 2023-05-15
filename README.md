@@ -11,3 +11,6 @@ O script ou scripts relevantes
 Un par de capturas que demostren que o xogo funciona
 
 O enderezo de github que contén o proxecto
+
+![image](https://github.com/9RACHA/P3.3-Seleccion-de-cor-en-Rede/assets/66274956/4b1b1bfb-b7ca-454a-a68b-0906ab31cf73)
+
