@@ -24,3 +24,9 @@ Al pulsar cambiar color desde Host
 ![image](https://github.com/9RACHA/P3.3-Seleccion-de-cor-en-Rede/assets/66274956/763dcf84-f332-4bf9-95b1-e6ea429fcdc8)
 
 
+Al pulsar Cambia Color desde Cliente (que no se enfade ningun ultra del Espanyol)
+
+![image](https://github.com/9RACHA/P3.3-Seleccion-de-cor-en-Rede/assets/66274956/844b9a99-0cbc-42f7-a28d-e66e8a60f876)
+
+
+
