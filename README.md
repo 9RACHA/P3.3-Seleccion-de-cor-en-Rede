@@ -28,5 +28,9 @@ Al pulsar Cambia Color desde Cliente (que no se enfade ningun ultra del Espanyol
 
 ![image](https://github.com/9RACHA/P3.3-Seleccion-de-cor-en-Rede/assets/66274956/844b9a99-0cbc-42f7-a28d-e66e8a60f876)
 
+Al inicio 10 colores disponibles al pulsar cambiar color habra 9 colores disponibles (Solo con el Host iniciado)
+![image](https://github.com/9RACHA/P3.3-Seleccion-de-cor-en-Rede/assets/66274956/9f6bb75b-4263-4fd5-bf91-b9f1a34e19e4)
+
+
 
 
