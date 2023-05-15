@@ -69,6 +69,7 @@ namespace HelloWorld
             coloresDisponibles.Add(Color.magenta);
             coloresDisponibles.Add(Color.red);
             coloresDisponibles.Add(Color.green);
+            coloresDisponibles.Add(Color.clear); //Transparente
             //Añadir 1 mas
         }
         
