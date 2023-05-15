@@ -19,7 +19,7 @@ Al Iniciar como Host y Cliente
 ![image](https://github.com/9RACHA/P3.3-Seleccion-de-cor-en-Rede/assets/66274956/4b1b1bfb-b7ca-454a-a68b-0906ab31cf73)
 
 
-Al pulsar cambiar color
+Al pulsar cambiar color desde Host
 
 ![image](https://github.com/9RACHA/P3.3-Seleccion-de-cor-en-Rede/assets/66274956/763dcf84-f332-4bf9-95b1-e6ea429fcdc8)
 
