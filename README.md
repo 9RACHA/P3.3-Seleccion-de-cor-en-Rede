@@ -7,5 +7,7 @@ Deberás ter 10 cores predefinidas e cando un xogador entre asíganselle unha co
 Entregable:
 
 O script ou scripts relevantes
+
 Un par de capturas que demostren que o xogo funciona
+
 O enderezo de github que contén o proxecto
