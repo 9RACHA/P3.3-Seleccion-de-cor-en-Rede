@@ -58,10 +58,11 @@ namespace HelloWorld
                 }
             }
         }
-
+        
         static void SubmitNewColor(){
             if (GUILayout.Button("Cambia Color"))
             {
+                // Obtener el objeto de jugador local y llamar al método CambiaColor() del componente HelloWorldPlayer
                 var playerObject = NetworkManager.Singleton.SpawnManager.GetLocalPlayerObject();
                 var player = playerObject.GetComponent<HelloWorldPlayer>();
                 player.CambiaColor();
